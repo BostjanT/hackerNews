@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  <link rel="stylesheet" href="style.css">
+  <title>Hacker News Clone</title>
+</head>
+<body>
+  <div id="app-container">
+    <div id="app-header">
+      <header class="header">
+        <div class="flex">
+          <span class="header-title">
+          <!--   <img src="https://icon.now.sh/ycombinator/fff"  class="header-logo"> -->
+            <i class="fab fa-y-combinator  header-logo"></i>
+            Hacker News
+          </span>
+          <a href="#/" class="header-link">Top</a>
+          <a href="#/new" class="header-link">New</a>
+          <a href="#/ask" class="header-link">Ask</a>
+          <a href="#/show" class="header-link">Show</a>
+          <a href="#/favorites" class="header-link">Favorites</a>
+        </div>
+      </header>
+    </div>
+    <div id="route-container">
+      <div id="router-outlet"></div>
+    </div>
+  </div>
+  <script type="module" src="script.js"></script>
+  <script src="//unpkg.com/navigo@6"></script>
+
+
+</body>
+</html>
